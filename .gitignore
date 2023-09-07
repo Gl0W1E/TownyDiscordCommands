@@ -25,3 +25,4 @@ hs_err_pid*
 # useless intellij files
 .idea/*
 *.class
+target/
