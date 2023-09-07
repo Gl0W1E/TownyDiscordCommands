@@ -1,8 +1,23 @@
+
+# This plugin is open source at the following URL:
+# https://github.com/darthpeti/TownyDiscordCommands
+# No information from your Minecraft Server and/or Discord Bot is
+# being stolen using the TownyDiscordCommands plugin.
+# For any questions, or ideas DM "gl0w1e" on Discord.
+
 #It is recommended to set your bot permission to only "send messages".
 #The plugin only requires the bot to have access to send messages in channels it is seeing.
-#DO NOT SHARE YOUR TOKEN ANYONE!
-token: "YOUR-BOT-TOKEN"
+#DO NOT SHARE YOUR TOKEN WITH ANYONE!
+token: "YOUR BOT TOKEN"
+
 #Options: "ONLINE" , "DO_NOT_DISTURB" , "IDLE" , "INVISIBLE".
 bot-status: "ONLINE"
+
 #If the activity status is above 15 letters, it will instead use "Towny". Spaces count too.
-activity: "Peti's Plugin"
+activity: "Crazy? I was crazy once..."
+
+# The image displayed in the embed of any /TOWN command on discord.
+town-image: "INSERT PNG LINK HERE"
+
+# The image displayed in the embed of any /NATION command on discord.
+nation-image: "INSERT PNG LINK HERE"

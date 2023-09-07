@@ -32,6 +32,7 @@ public class ResidentCommand extends ListenerAdapter {
         emb.setDescription("**Activity:** " + (r.isOnline() ? "ONLINE" : "OFFLINE"));
         emb.setThumbnail("https://cravatar.eu/helmhead/" + r.getName() + "/600.png");
         emb.setColor(Color.GREEN);
+        emb.addField("Registered:", "<t:" + r.getRegistered() + ":f>", true);
         if (r.hasTown()) {
             emb.addField("Town:" , r.getTownOrNull().getName(), true);
         }

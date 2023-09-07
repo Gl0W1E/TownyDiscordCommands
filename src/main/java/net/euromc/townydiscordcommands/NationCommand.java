@@ -26,7 +26,7 @@ public class NationCommand extends ListenerAdapter {
 
         EmbedBuilder emb = new EmbedBuilder();
         emb.setColor(Color.GREEN);
-        emb.setThumbnail("https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1a/Diamond_Ore_JE1_BE1.png");
+        emb.setThumbnail(Main.instance.getConfig().getString("nation-image"));
         emb.setTitle(n.getName());
         emb.setDescription("**Board:** " + n.getBoard());
         emb.addField("Leader:", n.getKing().getName(), true);

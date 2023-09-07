@@ -46,7 +46,7 @@ public class TownCommand extends ListenerAdapter {
         emb.addField("Explosions:", t.isExplosion() ? "ON" : "OFF", true);
         emb.addField("Mob Spawns:", t.hasMobs() ? "ON" : "OFF", true);
         emb.addField("Resident Count:" , String.valueOf(t.getNumResidents()), true);
-        emb.setThumbnail("https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/93/Grass_Block_JE7_BE6.png");
+        emb.setThumbnail(Main.instance.getConfig().getString("town-image"));
 
         event.replyEmbeds(emb.build()).queue();
         // success
