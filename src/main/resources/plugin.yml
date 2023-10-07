@@ -2,5 +2,6 @@ name: TownyDiscordCommands
 version: '${project.version}'
 main: net.euromc.townydiscordcommands.Main
 api-version: 1.17
-authors: [ darthpeti ]
+authors: [ Gl0W1E ]
+folia-supported: true
 description: Discord Towny Commands
