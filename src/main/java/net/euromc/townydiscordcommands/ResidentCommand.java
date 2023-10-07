@@ -40,7 +40,7 @@ public class ResidentCommand extends ListenerAdapter {
             emb.addField("Nation: " , r.getNationOrNull().getName(), true);
         }
         if (TownyEconomyHandler.isActive()) {
-            emb.addField("Balance:", String.valueOf(r.getAccountOrNull().getHoldingBalance()), true);
+            emb.addField("Balance:", String.valueOf(r.getAccount().getHoldingBalance()), true);
         }
 
         event.replyEmbeds(emb.build()).queue();
